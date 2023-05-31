@@ -9,11 +9,11 @@ export const PostService = {
     return response.data;
   },
 
-  async getById(id) {
+  async getById(id: any) {
     const response = await axios.get(`${URL}/${id}`);
     return response.data;
   },
-  async getCommentById(id) {
+  async getCommentById(id: any) {
     const response = await axios.get(`${URL}/${id}/comments`);
     return response.data;
   },

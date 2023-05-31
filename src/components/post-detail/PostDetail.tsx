@@ -4,6 +4,7 @@ import { PostService } from "../../services/post.service";
 import PostItem from "../post-item/PostItem";
 import CommentItem from "../comment-item/CommentItem";
 import { Button } from "@mui/material";
+import { number } from "yargs";
 
 const PostDetail = () => {
   const { id } = useParams();
